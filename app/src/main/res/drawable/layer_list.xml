@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:id="@+id/layer_size">
+        <shape android:shape="rectangle">
+            <!--size for the smart icon with superscript-->
+            <size
+                android:width="50dp"
+                android:height="54dp" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/layer_main"
+        android:gravity="start|bottom"
+        tools:drawable="@android:drawable/btn_radio"
+        tools:ignore="UnusedAttribute" />
+    <item
+        android:id="@+id/layer_top"
+        android:drawable="@android:drawable/btn_star"
+        android:gravity="top|end"
+        android:left="13dp" />
+</layer-list>
